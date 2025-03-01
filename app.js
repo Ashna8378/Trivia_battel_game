@@ -38,9 +38,7 @@ async function fetchCategories() {
     .map(([key, value]) => `<option value="${key}">${value}</option>`)
     .join('');  
 
-
 }
-
 
 
 async function fetchQuestions() {
